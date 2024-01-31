@@ -1,12 +1,12 @@
-resource "minecraft_block" "stone" {
-  material = "minecraft:stone"
+# resource "minecraft_block" "stone" {
+#   material = "minecraft:stone"
 
-  position = {
-    x = -47,
-    y = 65,
-    z = 30
-  }
-}
+#   position = {
+#     x = -47,
+#     y = 65,
+#     z = 30
+#   }
+# }
 
 # module "name" {
 #   source = "./cube"
@@ -26,49 +26,4 @@ resource "minecraft_block" "stone" {
 #   }
 # }
 
-# module "pig" {
-#  source = "./entity"
-
-#  entity = "pig"
-
-#  amount=3
-
-#    x = 224,
-#    y = 81,
-#    z = 2024
-#   }
-
-# }
-
-
-#For Music Event
-# resource "minecraft_block" "noteblock" {
-#   material = "note_block[note=7]"
-
-#   position = {
-#     x = 0,
-#     y = -60,
-#     z = 0
-#   }
-# }
-
-# resource "minecraft_block" "redstone" {
-#   material = "redstone_wire"
-
-#   position = {
-#     x = 1,
-#     y = -60,
-#     z = 0
-#   }
-# }
-
-# resource "minecraft_block" "mechanism" {
-#   material = "stone_button"
-
-#   position = {
-#     x = 2,
-#     y = -60,
-#     z = 0
-#   }
-# }
 

@@ -9,6 +9,6 @@ terraform {
 
 // Configure the provider with the RCON details of the Minecraft server
 provider "minecraft" {
-  address  = "18.184.37.200:25575"
+  address  = "vscodeserver-0.creative.technative.dev:25575"
   password = "Worlt"
 }
