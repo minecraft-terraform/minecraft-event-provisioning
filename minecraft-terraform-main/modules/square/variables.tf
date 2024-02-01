@@ -17,9 +17,3 @@ variable "dimensions" {
 variable "material" {
   type = string
 }
-
-variable "width_expansion" {
-  description = "Factor to control width expansion of the diagonal line"
-  type        = number
-  default     = 1  # Set a default value or adjust as needed
-}

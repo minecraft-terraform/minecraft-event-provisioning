@@ -9,7 +9,7 @@
 # }
 
 # module "name" {
-#   source = "./cube"
+#   source = "./modules/cube"
 
 #   material = "cobblestone"
 
