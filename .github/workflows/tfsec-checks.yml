@@ -1,9 +1,11 @@
 name: tfsec
 on:
   push:
-    branches:
+    branchesi-ignore:
       - main
   pull_request:
+    branches:
+      - tfsecOnCI 
 jobs:
   tfsec:
     name: tfsec sarif report
