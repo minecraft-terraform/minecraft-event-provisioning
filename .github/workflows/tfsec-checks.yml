@@ -2,7 +2,6 @@ name: tfsec
 on:
   push:
     branches:
-      - tfsecOnCI
       - main
   pull_request:
 jobs:
