@@ -1,11 +1,12 @@
 locals {
-    coordinates = [
-      [2,0,-1],
-      [1,0,-1],
-               [0,0,0],
-      [-1,0,-1],
-      [-2,0,-1],
+      coordinates = [
+             [2,0,1],
+             [1,0,1],
+      [0,0,0],
+             [-1,0,1],
+             [-2,0,1],
       ]
+
 
   blocks_coordinates = [for block in local.coordinates :
       [var.position.x + block[0], var.position.y + block[1], var.position.z - block[2]]

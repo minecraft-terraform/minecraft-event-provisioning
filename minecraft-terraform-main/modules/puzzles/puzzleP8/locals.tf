@@ -1,10 +1,10 @@
 locals {
     coordinates = [
-             [2,0,1],
-             [1,0,1],
-      [0,0,0],
-             [-1,0,1],
-             [-2,0,1],
+  [2,0,-1],
+      [1,0,-1],
+               [0,0,0],
+      [-1,0,-1],
+      [-2,0,-1],
       ]
 
   blocks_coordinates = [for block in local.coordinates :
