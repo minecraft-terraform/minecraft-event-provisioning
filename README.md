@@ -16,3 +16,5 @@ resource "minecraft_block" "muziek_start" {
 }
 
 ```
+
+git clone https://github.com/mipmip/minecraft-muzak-tf
