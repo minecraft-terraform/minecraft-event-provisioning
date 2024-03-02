@@ -9,9 +9,9 @@ resource "minecraft_block" "muziek_start" {
   material = "oak_button[face=ceiling]"
 
   position = {
-    x = var.start_x
+    x = 111
     y = -60
-    z = var.z
+    z = 111
   }
 }
 
